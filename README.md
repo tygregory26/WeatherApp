@@ -2,6 +2,9 @@
 
 This is a desktop application built with Python and Tkinter that provides real-time weather data and a 5-day forecast using the OpenWeather API.
 
+# Dependencies
+- Requests: HTTP library for Python, used to communicate with the OpenWeather API
+
 # Features
 - Display current weather conditions, including temperature, humidity, wind speed, and a short description.
 - Show 5-day forecast with one entry per day.
