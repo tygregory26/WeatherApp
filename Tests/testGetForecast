@@ -1,0 +1,15 @@
+import unittest
+from src.EnhancedWeatherApp import getForecast
+
+class TestGetForecast(unittest.TestCase):
+    def testGetForecastValidLocation(self):
+        result = getForecast("Bismarck, North Dakota")
+        self.assertIsNotNone(result)
+        self.assertIn("list", result)
+    
+    def testGetForecastInvalidLocation(self):
+        result = getForecast("InvalidCity")
+        self.assertIsNone(result)
+
+if __name__ == "__main__":
+    unittest.main()
