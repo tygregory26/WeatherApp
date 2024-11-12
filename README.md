@@ -8,14 +8,14 @@ This is a desktop application built with Python and Tkinter that provides real-t
 - Switch between Celsius and Fahrenheit.
 - Display sunrise and sunset times in 12-hour format.
 
-## Prerequisites
+# Prerequisites
 - Python 3.6 or higher
 - An OpenWeather API key
 - These instructions are for MAC only
    -    https://openweathermap.org
    -    Create your account then replace the api with the one I have.
 
-## Setup Instructions
+# Setup Instructions
 
 1. Clone this repository:
    ```
