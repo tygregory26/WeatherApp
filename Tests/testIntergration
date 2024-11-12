@@ -1,0 +1,17 @@
+import unittest
+from src.EnhancedWeatherApp import getWeather, getForecast
+
+class TestWeatherAppIntegration(unittest.TestCase):
+    def testCompleteWorkflow(self):
+        location = "Bismarck, North Dakota"
+        weatherData = getWeather(location)
+        forecastData = getForecast(location)
+        
+        self.assertIsNotNone(weatherData)
+        self.assertIn("main", weatherData)
+        
+        self.assertIsNotNone(forecastData)
+        self.assertIn("list", forecastData)
+
+if __name__ == "__main__":
+    unittest.main()
