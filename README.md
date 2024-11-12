@@ -24,3 +24,9 @@ This is a desktop application built with Python and Tkinter that provides real-t
    ```
    python3 -m venv weather_env
    source weather_env/bin/activate
+3.) Install the dependencies:
+
+    pip install -r requirements.txt
+4.) Run
+   ```
+   python EnhancedWeatherApp.py
