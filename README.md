@@ -22,5 +22,5 @@ This is a desktop application built with Python and Tkinter that provides real-t
    git clone https://github.com/tygregory26/WeatherApp.git
    cd WeatherApp
 2. Create a virtual environment and activate it:
-  ``` python3 -m venv weather_env
-      source weather_env/bin/activate
+    ```  python3 -m venv weather_env ```
+    ```  source weather_env/bin/activate ```
